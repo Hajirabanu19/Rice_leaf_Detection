@@ -25,7 +25,7 @@ The project analyzes multiple modeling approaches and selects the most suitable 
 ##  Dataset Information
 
 * **Type:** Image Classification Dataset
-* **Total Images:** 120
+* **Total Images:** 119
 * **Classes:** 3 (Leaf Blast, Bacterial Blight, Brown Spot)
 * **Image Format:** RGB images
 
@@ -55,9 +55,9 @@ The project analyzes multiple modeling approaches and selects the most suitable 
 ### 3️ CNN with Regularization
 
 * Used Dropout and L2 regularization.
-* Resulted in **underfitting** with validation accuracy of **60.87%**.
+* Resulted in **underfitting** with validation accuracy of **56.87%**.
 
-### 4️ Transfer Learning using MobileNetV2
+### 4️ Transfer Learning using MobileNet
 
 * Pre-trained MobileNetV2 model used.
 * Achieved the **highest validation accuracy of 82.61%**.
@@ -71,17 +71,17 @@ The project analyzes multiple modeling approaches and selects the most suitable 
 | ----------------------- | ------------------- |
 | Baseline CNN            | 73.91%              |
 | CNN + Data Augmentation | 73.91%              |
-| CNN + Regularization    | 60.87%              |
-| **MobileNetV2**         | **82.61%**          |
+| CNN + Regularization    | 56.87%              |
+| **MobileNet**           | **91.61%**          |
 
-**Selected Model:** MobileNetV2
+**Selected Model:** MobileNet
 
 ---
 
 ##  Prediction on New Rice Leaf Images
 
 * Predictions were performed on **three unseen rice leaf images**.
-* The MobileNetV2 model correctly classified all test images.
+* The MobileNet model correctly classified all test images.
 * This confirms the model’s real-world applicability and generalization capability.
 
 ---
@@ -90,13 +90,13 @@ The project analyzes multiple modeling approaches and selects the most suitable 
 
 * **Limited Dataset Size:** Addressed using data augmentation and transfer learning.
 * **Overfitting in CNN Models:** Controlled using early stopping and advanced models.
-* **Visual Similarity Between Diseases:** Mitigated using deep feature extraction from MobileNetV2.
+* **Visual Similarity Between Diseases:** Mitigated using deep feature extraction from MobileNet.
 
 ---
 
 ##  Final Conclusion
 
-MobileNetV2 outperformed all CNN-based approaches by achieving the highest validation accuracy and better generalization on limited data. Prediction results on unseen images further confirmed its practical effectiveness, making it the most suitable model for rice leaf disease detection.
+MobileNet outperformed all CNN-based approaches by achieving the highest validation accuracy and better generalization on limited data. Prediction results on unseen images further confirmed its practical effectiveness, making it the most suitable model for rice leaf disease detection.
 
 ---
 
@@ -111,13 +111,13 @@ MobileNetV2 outperformed all CNN-based approaches by achieving the highest valid
 
 ##  Submission Note
 
-All tasks, experiments, evaluations, and conclusions were completed within a **single Jupyter Notebook**, as per institute guidelines.
+All tasks, experiments, evaluations, and conclusions were completed within a **single Jupyter Notebook**.
 
 ---
 
 ##  Author
 
-**Juju**
+**hajira banu.k**
 Data Science Trainee
 
 ---
