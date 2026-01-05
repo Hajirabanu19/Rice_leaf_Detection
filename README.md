@@ -59,8 +59,8 @@ The project analyzes multiple modeling approaches and selects the most suitable 
 
 ### 4️ Transfer Learning using MobileNet
 
-* Pre-trained MobileNetV2 model used.
-* Achieved the **highest validation accuracy of 82.61%**.
+* Pre-trained MobileNet model used.
+* Achieved the **highest validation accuracy of 91.61%**.
 * Demonstrated better generalization and faster convergence.
 
 ---
